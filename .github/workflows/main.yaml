@@ -32,7 +32,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       
       - name: Build docker image
-        run: docker built -t jayashreep2005/mycicdapp .
+        run: docker build -t jayashreep2005/mycicdapp .
       
       - name: Push to dockerhub
         run: docker push jayashreep2005/mycicdapp:latest
