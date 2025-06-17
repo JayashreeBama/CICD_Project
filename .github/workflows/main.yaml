@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
       
       - name: Build with maven
-        uses: mvn clean package
+        run: mvn clean package
       
       - name: setup docker
         uses: docker/setup-buildx-action@v3
@@ -32,7 +32,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       
       - name: Build docker image
-        uses: docker built -t jayashreep2005/mycicdapp .
+        run: docker built -t jayashreep2005/mycicdapp .
       
       - name: Push to dockerhub
-        uses: docker push jayashreep2005/mycicdapp:latest
+        run: docker push jayashreep2005/mycicdapp:latest
