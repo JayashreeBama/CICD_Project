@@ -1,4 +1,4 @@
-Project: CI/CD Pipeline with GitHub Actions & Docker (No Cloud)
+# Project: CI/CD Pipeline with GitHub Actions & Docker (No Cloud)
 
 Objective
 Build a complete CI/CD pipeline for a Java application using Maven, JUnit, Docker, and GitHub Actions, and deploy it locally using Docker on a VM or host system — avoiding cloud services.
@@ -41,10 +41,16 @@ Copy
 Edit
 .
 ├── src/
+
 ├── Dockerfile
+
 ├── pom.xml
+
 ├── .github/workflows/deploy.yml
+
 ├── README.md
+
+├── target
 
 
 📸 Outputs & Deliverables
