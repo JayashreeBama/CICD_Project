@@ -36,9 +36,6 @@ Push the image to Docker Hub
 Deployed the app locally using Docker, since the app is interactive and expects user input (making Kubernetes/Minikube unsuitable).
 
 📂 Project Structure
-bash
-Copy
-Edit
 .
 ├── src/
 
@@ -65,11 +62,6 @@ Edit
 ✅ Successfully deployed and tested via local Docker run
 
 ▶️ Run the App Locally
-
-
-bash
-Copy
-Edit
 
 
 # Pull the image
